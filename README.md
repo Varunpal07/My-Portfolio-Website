@@ -29,7 +29,11 @@ This repository includes a complete project walkthrough video covering:
 - Features and implementation
 
 ▶️ **Watch the Project Video:**  
-**[Project Walkthrough & Explanation](/Portfolio%20Project%20Video%20.mp4)**
+**[Project Walkthrough & Explanation](
+
+https://github.com/user-attachments/assets/c04758b8-d1ad-4198-b695-166bcd51e664
+
+)**
 
 ---
 
