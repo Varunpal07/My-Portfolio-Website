@@ -32,8 +32,8 @@ This repository includes a complete project walkthrough video covering:
 **[Project Walkthrough & Explanation](
 
 https://github.com/user-attachments/assets/c04758b8-d1ad-4198-b695-166bcd51e664
-**
-)
+)**
+
 ---
 
 ## 🛠️ Technologies Used
