@@ -1,0 +1,262 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #0f172a;
+    color: #cbd5e1;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0f172a;
+    padding: 20px 8%;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    z-index: 100;
+}
+
+.logo {
+    color: #f8fafc;
+    font-size: 26px;
+    font-weight: 800;
+    letter-spacing: -1px;
+}
+
+.logo span {
+    color: #6366f1;
+}
+
+.nav-links a {
+    color: #94a3b8;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #6366f1;
+}
+
+header {
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #0f172a;
+}
+
+.subtitle {
+    color: #818cf8;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#typing-text {
+    font-size: 55px;
+    color: #f8fafc;
+    font-weight: 800;
+    margin-bottom: 15px;
+    height: 65px;
+    letter-spacing: -1px;
+}
+
+.description {
+    font-size: 20px;
+    color: #94a3b8;
+    margin-bottom: 35px;
+}
+
+.btn {
+    background-color: #6366f1;
+    color: #ffffff;
+    padding: 14px 28px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    display: inline-block;
+    box-shadow: 0 4px 6px rgba(99, 102, 241, 0.2);
+}
+
+.btn:hover {
+    background-color: #4f46e5;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(99, 102, 241, 0.4);
+}
+
+section {
+    padding: 80px 8%;
+    text-align: center;
+}
+
+#about {
+    background-color: #1e293b;
+}
+
+h2 {
+    font-size: 36px;
+    color: #f8fafc;
+    margin-bottom: 25px;
+    font-weight: 800;
+    letter-spacing: -1px;
+}
+
+.about-text {
+    max-width: 650px;
+    margin: 0 auto 30px auto;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #cbd5e1;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.skill-badge {
+    background-color: rgba(99, 102, 241, 0.15);
+    color: #818cf8;
+    padding: 8px 18px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    border: 1px solid rgba(99, 102, 241, 0.3);
+}
+
+#projects {
+    background-color: #0f172a;
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.card {
+    background-color: #1e293b;
+    border-radius: 16px;
+    width: 320px;
+    padding: 30px;
+    text-align: left;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #334155;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+}
+
+.card-icon {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    color: #f8fafc;
+    font-size: 22px;
+    margin-bottom: 12px;
+    font-weight: 700;
+}
+
+.card p {
+    color: #94a3b8;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+.tech-used {
+    font-size: 13px;
+    font-weight: 700;
+    color: #818cf8;
+}
+
+footer {
+    background-color: #0b1120;
+    color: #ffffff;
+    text-align: center;
+    padding: 60px 8%;
+}
+
+footer h2 {
+    color: #f8fafc;
+}
+
+footer p {
+    color: #94a3b8;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+    font-weight: 600;
+    color: #cbd5e1;
+}
+
+.copy {
+    margin-top: 40px;
+    font-size: 14px;
+    border-top: 1px solid #1e293b;
+    padding-top: 20px;
+    color: #64748b;
+}
+
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px 5%;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .nav-links a {
+        margin-left: 0;
+        font-size: 14px;
+    }
+
+    #typing-text {
+        font-size: 38px;
+        height: auto;
+    }
+
+    .description {
+        font-size: 16px;
+    }
+
+    section {
+        padding: 60px 5%;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 320px;
+    }
+}
